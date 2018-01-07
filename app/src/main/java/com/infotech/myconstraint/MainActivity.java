@@ -33,6 +33,7 @@ public class MainActivity extends Activity {
         send.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Log.d(TAG, "start");
                 String sub = subject.getText().toString();
                 String mes = message.getText().toString();
                 String emailAddress = email.getText().toString();
